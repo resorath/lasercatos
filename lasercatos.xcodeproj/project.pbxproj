@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1687251F1BB4DF750061544C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1687251E1BB4DF750061544C /* AppDelegate.swift */; };
+		168725211BB4DF750061544C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 168725201BB4DF750061544C /* Images.xcassets */; };
+		168725241BB4DF750061544C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 168725221BB4DF750061544C /* MainMenu.xib */; };
+		168725301BB4DF750061544C /* lasercatosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1687252F1BB4DF750061544C /* lasercatosTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1687252A1BB4DF750061544C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 168725111BB4DF750061544C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 168725181BB4DF750061544C;
+			remoteInfo = lasercatos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		168725191BB4DF750061544C /* lasercatos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lasercatos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1687251D1BB4DF750061544C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1687251E1BB4DF750061544C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		168725201BB4DF750061544C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		168725231BB4DF750061544C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		168725291BB4DF750061544C /* lasercatosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lasercatosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1687252E1BB4DF750061544C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1687252F1BB4DF750061544C /* lasercatosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lasercatosTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		168725161BB4DF750061544C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		168725261BB4DF750061544C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		168725101BB4DF750061544C = {
+			isa = PBXGroup;
+			children = (
+				1687251B1BB4DF750061544C /* lasercatos */,
+				1687252C1BB4DF750061544C /* lasercatosTests */,
+				1687251A1BB4DF750061544C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1687251A1BB4DF750061544C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				168725191BB4DF750061544C /* lasercatos.app */,
+				168725291BB4DF750061544C /* lasercatosTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1687251B1BB4DF750061544C /* lasercatos */ = {
+			isa = PBXGroup;
+			children = (
+				1687251E1BB4DF750061544C /* AppDelegate.swift */,
+				168725201BB4DF750061544C /* Images.xcassets */,
+				168725221BB4DF750061544C /* MainMenu.xib */,
+				1687251C1BB4DF750061544C /* Supporting Files */,
+			);
+			path = lasercatos;
+			sourceTree = "<group>";
+		};
+		1687251C1BB4DF750061544C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1687251D1BB4DF750061544C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1687252C1BB4DF750061544C /* lasercatosTests */ = {
+			isa = PBXGroup;
+			children = (
+				1687252F1BB4DF750061544C /* lasercatosTests.swift */,
+				1687252D1BB4DF750061544C /* Supporting Files */,
+			);
+			path = lasercatosTests;
+			sourceTree = "<group>";
+		};
+		1687252D1BB4DF750061544C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1687252E1BB4DF750061544C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		168725181BB4DF750061544C /* lasercatos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 168725331BB4DF750061544C /* Build configuration list for PBXNativeTarget "lasercatos" */;
+			buildPhases = (
+				168725151BB4DF750061544C /* Sources */,
+				168725161BB4DF750061544C /* Frameworks */,
+				168725171BB4DF750061544C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lasercatos;
+			productName = lasercatos;
+			productReference = 168725191BB4DF750061544C /* lasercatos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		168725281BB4DF750061544C /* lasercatosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 168725361BB4DF750061544C /* Build configuration list for PBXNativeTarget "lasercatosTests" */;
+			buildPhases = (
+				168725251BB4DF750061544C /* Sources */,
+				168725261BB4DF750061544C /* Frameworks */,
+				168725271BB4DF750061544C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1687252B1BB4DF750061544C /* PBXTargetDependency */,
+			);
+			name = lasercatosTests;
+			productName = lasercatosTests;
+			productReference = 168725291BB4DF750061544C /* lasercatosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		168725111BB4DF750061544C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Sean Feil";
+				TargetAttributes = {
+					168725181BB4DF750061544C = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					168725281BB4DF750061544C = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 168725181BB4DF750061544C;
+					};
+				};
+			};
+			buildConfigurationList = 168725141BB4DF750061544C /* Build configuration list for PBXProject "lasercatos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 168725101BB4DF750061544C;
+			productRefGroup = 1687251A1BB4DF750061544C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				168725181BB4DF750061544C /* lasercatos */,
+				168725281BB4DF750061544C /* lasercatosTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		168725171BB4DF750061544C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				168725211BB4DF750061544C /* Images.xcassets in Resources */,
+				168725241BB4DF750061544C /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		168725271BB4DF750061544C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		168725151BB4DF750061544C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1687251F1BB4DF750061544C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		168725251BB4DF750061544C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				168725301BB4DF750061544C /* lasercatosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1687252B1BB4DF750061544C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 168725181BB4DF750061544C /* lasercatos */;
+			targetProxy = 1687252A1BB4DF750061544C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		168725221BB4DF750061544C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				168725231BB4DF750061544C /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		168725311BB4DF750061544C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		168725321BB4DF750061544C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		168725341BB4DF750061544C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = lasercatos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		168725351BB4DF750061544C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = lasercatos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		168725371BB4DF750061544C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = lasercatosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lasercatos.app/Contents/MacOS/lasercatos";
+			};
+			name = Debug;
+		};
+		168725381BB4DF750061544C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = lasercatosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lasercatos.app/Contents/MacOS/lasercatos";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		168725141BB4DF750061544C /* Build configuration list for PBXProject "lasercatos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				168725311BB4DF750061544C /* Debug */,
+				168725321BB4DF750061544C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		168725331BB4DF750061544C /* Build configuration list for PBXNativeTarget "lasercatos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				168725341BB4DF750061544C /* Debug */,
+				168725351BB4DF750061544C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		168725361BB4DF750061544C /* Build configuration list for PBXNativeTarget "lasercatosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				168725371BB4DF750061544C /* Debug */,
+				168725381BB4DF750061544C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 168725111BB4DF750061544C /* Project object */;
+}
